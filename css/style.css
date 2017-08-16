@@ -1,0 +1,35 @@
+* {
+	box-sizing: border-box;
+}
+html {
+	background-color: #000;
+}
+body {
+	width: 1200px;
+	height: 600px;
+	background-color: #fdde7e;
+	margin: 100px auto;
+	display: flex;
+}
+.price-2-item, .price-2-5-item {
+	width: 360px;
+	height: 441px;
+	background-color: #fff;
+	border-radius: 4px;
+}
+.price-3-item {
+	width: 360px;
+	height: 500px;
+	background-color: #fff;
+	border-radius: 4px;
+	margin: 0 30px 0 30px;
+}
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.center-position {
+	justify-content: center;
+	align-items: center;
+}
